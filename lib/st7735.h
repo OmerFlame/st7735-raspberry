@@ -431,6 +431,9 @@ public:
 	void draw_bitmap_st7735_stream(const uint8_t *image, unsigned long length);
 
 	void setCursor(int16_t x, int16_t y);
+
+	int16_t getCursorX();
+	int16_t getCursorY();
 	
 	void setTextColor(uint16_t color);
 

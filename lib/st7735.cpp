@@ -381,6 +381,14 @@ void Adafruit_ST7735::setCursor(int16_t x, int16_t y) {
 	cursor_y = y;
 }
 
+int16_t Adafruit_ST7735::getCursorX() {
+	return cursor_x;
+}
+
+int16_t Adafruit_ST7735::getCursorY() {
+	return cursor_y;
+}
+
 void Adafruit_ST7735::setTextBackground(uint16_t bg) {
 	textbgcolor = bg;
 }
